@@ -27,3 +27,21 @@ To run the tests for the project, run the following command:
 ```bash
 npm test
 ```
+## Running
+Clone the github repository using
+
+    git clone https://github.com/NathanFink/M4.2_Lab.git
+
+Move into the directory
+
+    cd NathanFink/M4.2_Lab
+
+Open the project in Vscode
+
+Install Live Preview on Vscode
+
+Start the Live Preview from the Command Palette
+
+If you wish to view this in your browser you can use the local url
+
+    http://127.0.0.1:3000
