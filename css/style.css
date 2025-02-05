@@ -1,4 +1,89 @@
-h1{
-  border-color: #d3e644;
-  border-style: dashed;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: grey;
+}
+
+.header-wrapper {
+  width: 100%;
+  background-color: rgb(35, 184, 234);
+  color: black;
+  font-size: 25pt;
+  font-family: 'Bauhaus';
+  padding: 20px 0;
+  text-align: center;
+  size: 150px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.nav-wrapper {
+  margin: 25px auto;
+  max-width: calc(100% - 50px);
+  background-color: rgb(81, 217, 255);
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0 50px;
+}
+
+nav ul li {
+  font-size: 18pt;
+  width: 100%;
+  text-align: center;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  padding: 15px 40px;
+  display: block;
+}
+
+nav ul li span {
+  color: black;
+  padding: 15px 40px;
+  display: block;
+}
+
+.main-content-wrapper {
+  background-color: rgb(35, 184, 234);
+  margin: 15px;
+  display: flex;
+  gap: 20px;
+}
+
+.welcome-text-wrapper {
+  margin: 10px;
+  flex: 1;
+  background-color: lightgrey;
+  padding: 20px;
+}
+
+.image-sidebar-wrapper {
+  margin: 10px;
+  flex: 1;
+  background-color: lightgrey;
+  padding: 20px;
+}
+
+div{
+  text-align: center;
+}
+
+.footer-wrapper{
+  background-color: rgb(35, 184, 234);
+  text-align: center;
+  padding: 20px
 }
